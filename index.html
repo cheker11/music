@@ -10,25 +10,23 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin: 0;
             height: 100vh;
-            gap: 20px; /* Увеличенное расстояние между элементами */
+            margin: 0;
+            gap: 20px;
+            /* Регулирует расстояние между гифкой и плеером */
         }
 
-        .baner__img {
-            display: block;
-            margin: auto;
-            max-width: 100%; /* Увеличенная гифка на всю ширину */
-            height: auto;
-            width: 1200px; /* Фиксированная большая ширина */
-        }
-
+        .baner__img,
         .audio-player {
             display: block;
             margin: auto;
-            width: 800px; /* Увеличенная ширина плеера */
-            height: 400px; /* Увеличенная высота плеера */
-            margin-top: -350px; /* Поднимаем плеер выше */
+        }
+        .baner__img{
+            width: 700px;
+            height: 600px;
+        }
+        .audio-player {
+            margin-top: -250px;
         }
     </style>
 </head>
