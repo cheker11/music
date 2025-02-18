@@ -10,15 +10,22 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             margin: 0;
-            gap: 20px; /* Регулирует расстояние между гифкой и плеером */
+            height: 100vh;
+            gap: 10px; /* Меньше расстояние между элементами */
         }
 
-        .baner__img,
+        .baner__img {
+            display: block;
+            margin: auto;
+            max-width: 80%; /* Адаптивность для телефонов */
+        }
+
         .audio-player {
             display: block;
             margin: auto;
+            width: 300px; /* Увеличиваем ширину плеера */
+            height: 50px;  /* Делаем плеер выше */
         }
     </style>
 </head>
